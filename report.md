@@ -24,4 +24,4 @@ train：需要使用Bert的中文预训练模型bert-base-chinese作为encoder
 
 运行evaluate.py
 
-结果生成在results
+预测结果生成在results
