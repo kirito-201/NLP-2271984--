@@ -5,7 +5,7 @@
 
 本文基于global-pointer实现命名实体识别任务（NER）。搭建的总体方法就是数据处理、编码、矩阵计算得到q、k向量序列、编入相对位置信息、计算得分。其中构建损失函数使用softmax+交叉熵，位置编码信息使用RoPE-通过绝对位置编码实现相对位置编码。模型训练时需要使用Bert的中文预训练模型bert-base-chinese。
 
-![image-20230111100549658](C:\Users\40566\AppData\Roaming\Typora\typora-user-images\image-20230111100549658.png)
+![image-20230111100549658](image-20230111100549658.png)
 
 ## 实现
 
